@@ -1,4 +1,4 @@
-.navbar {
+navbar {
   background-color: #FF2Da8;
   display: flex;
   justify-content: space-between; 
@@ -41,6 +41,8 @@
   width: 80px;   
   height: auto;  
 }
+
+
 
 #lista-productos {
   display: grid;
@@ -196,14 +198,28 @@ main {
 }
 
 .imagen-inicio {
-  max-width: 90%;   
-  height: auto;     
+  max-width: 320px;   
+  width: 60%;         
+  height: auto;
   display: block;
-  margin: 0 auto;   
+  margin: 1.2rem auto 0;
+  object-fit: contain;
 }
 
+
+@media (min-width: 1200px) {
+  .imagen-inicio { max-width: 380px; width: 40%; }
+}
+@media (max-width: 768px) {
+  .imagen-inicio { width: 50%; max-width: 220px; }
+}
 @media (max-width: 480px) {
-  .imagen-inicio {
-    max-width: 70%;   
-  }
+  .imagen-inicio { width: 40%; max-width: 140px; }
+}
+
+
+.inicio-container .imagen-inicio {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
