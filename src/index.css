@@ -42,8 +42,6 @@
   height: auto;  
 }
 
-
-
 #lista-productos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -203,7 +201,6 @@ main {
   display: block;
   margin: 0 auto;   
 }
-
 
 @media (max-width: 480px) {
   .imagen-inicio {
