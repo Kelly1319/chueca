@@ -11,12 +11,13 @@ function Inicio() {
         en Buenos Aires, usando los mejores productos del mercado</p>
     </main>
 
-    <img src="/img/logo.png"></img>
+   <img src="/img/logo.png" className="imagen-inicio" alt="logo"></img>
     <br />
         
     </div>
     </>
   )
 }
+
 
 export default Inicio
