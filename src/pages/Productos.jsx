@@ -4,6 +4,7 @@ import { useCartContext } from "../context/CartContext";
 import { useAuthContext } from "../context/AuthContext";
 import { useProducts } from "../context/ProductsContext";
 import { useEffect, useState } from "react";
+import "../index.css";
 
 export default function Productos() {
   const { productos, cargando, error } = useProducts();
@@ -112,8 +113,8 @@ export default function Productos() {
                 <img
                   src={producto.avatar}
                   alt={producto.nombre}
-                  className="card-img-top"
-                  style={{ height: "300px", objectFit: "cover" }}
+                  className="card-img-producto"
+                  // style={{ height: "300px", objectFit: "cover" }}
                 />
                
                 <div className="card-body d-flex flex-column">
