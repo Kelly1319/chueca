@@ -196,7 +196,17 @@ main {
   padding-top: 10px;
   font-size: 14px;
 }
-main {
-  width: 70%;
-  padding-left: 15%;
+
+.imagen-inicio {
+  max-width: 90%;   
+  height: auto;     
+  display: block;
+  margin: 0 auto;   
+}
+
+
+@media (max-width: 480px) {
+  .imagen-inicio {
+    max-width: 70%;   
+  }
 }
