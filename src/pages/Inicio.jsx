@@ -1,5 +1,5 @@
 import React from 'react'
-import "../index.css";
+import "./index.css";
 
 function Inicio() {
   return (
@@ -21,4 +21,5 @@ function Inicio() {
 }
 
 export default Inicio
+
 
